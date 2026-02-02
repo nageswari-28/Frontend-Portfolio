@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nageswari Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1>Nageswari Lakku</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      <section class="header">
+  <div class="header-content">
+     <h2>Frontend Developer</h2>
+    <h1>Hi, I'm <br><span>Nageswari</span><br>
+    From Ananthapur</h1>
+     
+  </div>
+
+  <div class="header-image"></div>
+</section>
+    </div>
+    
+    <!-- ----------------about-------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="c:\Users\Nageswari\Downloads\IMG-20250829-WA0050.jpg"/><br />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <p>
+              I'm Nageswari From Ravaludiki,currently pursuing my 3rd year
+              <br />B.tech in Computer Science Engineering at<br />GATES
+              Institute Of Technology,Gooty.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onClick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onClick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onClick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend Developer</span> <br />
+                  <br />HTML5<br />CSS3<br />JavaScript(ES6+)<br />ReactJs
+                </li>
+                <li>
+                  <span>Tools</span> <br />
+                  <br />VS Code<br />Git<br />GitHub<br />
+                </li>
+                <li><span>Python Developer</span></li>
+                <li><span>Active Listening</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023 - current</span><br />
+                  Pursuing 3rd year B.tech In CSE at GATES COllege
+                </li>
+                <li>
+                  <span>2021--2023</span><br />Intermediate college at KGBV
+                  Junior College
+                </li>
+                <li><span>2020--2021</span><br />SSC at KGBV School</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Fresher</span><br />
+                  Iam a Fresher seeking an opportunity to work,learn<br />and grow my skills in a professional environment.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------services------------------------- -->
+      <div id="Services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div class="services-col-1">
+              <i class="fas fa-code"></i>
+              <h2>Web Development</h2>
+              <br />
+              <p>
+                I create responsive and user-friendly websites using HTML,<br />
+                CSS, and JavaScript.<br />
+                I have experience in building modern web applications<br />
+                that provide seamless user experiences across devices.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="services-col-2">
+              <i class="fas fa-laptop-code"></i>
+              <h2>Programming & Problem Solving</h2>
+              <br />
+              <p>
+                I solve complex programming problems and implement efficient algorithms.<br />
+                I have a strong foundation in data structures and algorithms,<br />
+                enabling me to develop optimized solutions for various challenges.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="services-col-3">
+              <i class="fas fa-code-branch"></i>
+              <h2>Hackathon</h2>
+              <br />
+              <p>
+                I actively participate in hackathons to collaborate with<br />
+                like-minded individuals, brainstorm innovative ideas,<br />
+                and develop practical solutions within a limited timeframe.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------------------------------portfolio--------------- -->
+        <div id="portfolio">
+          <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+              <div class="Work">
+                <img
+                  src="c:\Users\Nageswari\Downloads\pexels-george-dolgikh-551816-1326947.jpg"
+                />
+                <div class="layer">
+                  <h3>Learning new skills</h3>
+                  <p>I am passionate about learning new skills<br> and continuously improving myself to stay <br>updated with modern technologies.</p>
+                  <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+              <div class="Work">
+                <img src="c:\Users\Nageswari\Downloads\webdesignwork.jpg" />
+                 <div class="layer">
+                <h3>Web Design</h3>
+                <p>I design simple, responsive, and user-friendly websites<br> using modern design principles. I focus on creating clean <br>layouts that provide a good user experience across all devices.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="Work">
+              <img src="c:\Users\Nageswari\Downloads\socialmediawork.jpg" />
+                 <div class="layer">
+              <h3>social media</h3>
+              <p>I manage social media accounts for businesses and individuals,<br> creating engaging content and building online communities.  </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- --------------------contact----------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>lakkunageswari@28gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>8179234174</p>
+            <div class="social-icons">
+              <a href="https://github.com/NageswariLakku"><i class="fab fa-github"></i>https://github.com/NageswariLakku</a>
+              <a href="https://www.linkedin.com/in/nageswari-lakku-7b8b5a249"><i class="fab fa-linkedin"></i>https://www.linkedin.com/in/nageswari-lakku-7b8b5a249</a>
+             
+            <a href="C:\Users\Nageswari\OneDrive\Desktop\WPS PDF.lnk" download class="btn btn2">Download CV</a>
+          </div>
+          </div>
+          <div class="contact-right">
+            <form action="https://script.google.com/macros/s/AKfycbxo8W1ZlRPg7rEyzbFHo5InthyN5Wr7SRi8IMy5rVC8j1QEPkgJW7ThQvNCC3vkGrs/exec" method="POST">
+
+                 <input type="text" name="Name" placeholder="Your Name" required>
+                 <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" placeholder="Your Message"></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+            <span id="msg"></span>
+          </div>
+      </div>
+      <div class="copy-right">
+        <p>© 2026 Nageswari.<i class="fas fa-heart"></i> All Rights Reserved.</p>
+      </div>
+    </div>
+
+    <script>
+      var tabLinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function openTab(tabName) {
+        for (tablink of tabLinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+	<script>
+const form = document.getElementById("contact-form");
+const msg = document.getElementById("msg");
+form.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  fetch("https://script.google.com/macros/s/AKfycbxo8W1ZlRPg7rEyzbFHo5InthyN5Wr7SRi8IMy5rVC8j1QEPkgJW7ThQvNCC3vkGrs/exec", {
+    method: "POST",
+    body: new FormData(form)
+  })
+  .then(response => response.text())
+  .then(data => {
+    msg.innerHTML = "Message sent successfully!";
+    form.reset();
+  })
+  .catch(error => {
+    msg.innerHTML = "Error! Data not sent";
+  });
+});
+</script>
+  </body>
+</html>
